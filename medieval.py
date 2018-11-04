@@ -94,7 +94,8 @@ class Dragon(Monster):
         super().__init__(200,Breath())
 
 playerMonster = Dragon()
-raceChoice = input('''Choose your Race:
+raceChoice = input('''You are fighting a dragon...
+Choose your Race:
 1.Dwarf
 Health: 70   Heal Power: 50\n
 2.Human
